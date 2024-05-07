@@ -1,0 +1,15 @@
+<?php
+
+namespace {%namespace%};
+
+use Jian1098\TpConstant\Constant;
+
+class {%className%} extends Constant
+{
+    /**
+     * Http Status Code
+     */
+    const SERVER_ERROR = 500;
+
+
+}
