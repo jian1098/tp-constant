@@ -20,8 +20,8 @@ class Constant extends Make
         return \dirname(__DIR__, 2) . DIRECTORY_SEPARATOR . 'stubs' . DIRECTORY_SEPARATOR . 'constant.stub';
     }
 
-    protected function getNamespace($appNamespace, $module)
+    protected function getNamespace(string $app): string
     {
-        return parent::getNamespace($appNamespace, $module) . '\\constant';
+        return parent::getNamespace($app) . '\\' . 'constant';
     }
 }

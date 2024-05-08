@@ -3,7 +3,7 @@
     "description": "About thinkphp框架命令行创建常量class文件",
     "type": "library",
     "require": {
-        "php": ">=5.5",
+        "php": ">=7.1",
         "topthink/framework": ">=5.0"
     },
     "license": "Apache-2.0",
