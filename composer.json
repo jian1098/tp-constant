@@ -1,6 +1,6 @@
 {
     "name": "jian1098/tp-constant",
-    "description": "About thinkphp框架命令行创建常量class文件",
+    "description": "thinkphp框架命令行创建常量class文件",
     "type": "library",
     "require": {
         "php": ">=5.4",
